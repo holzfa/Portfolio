@@ -1,15 +1,37 @@
 let lastScrollY = window.scrollY;
-  const navBar = document.querySelector('.navbar');
+let isAutoScrolling = false;
+let autoScrollTimer = null;
 
-  window.addEventListener('scroll', () => {
-    const currentScrollY = window.scrollY;
+const navBar = document.querySelector('.navbar');
+const navLinks = document.querySelectorAll('.dest');
 
-    // Nur ausblenden, wenn mehr als 50px gescrollt wurden
-    if (currentScrollY > lastScrollY && currentScrollY > 50) {
-      navBar.classList.add('hidden');
-    } else {
-      navBar.classList.remove('hidden');
-    }
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    isAutoScrolling = true;
+    navBar.classList.remove('hidden');
 
-    lastScrollY = currentScrollY;
+    // Falls während eines vorherigen Sprungs erneut geklickt wird, Timer zurücksetzen
+    clearTimeout(autoScrollTimer);
+
+    // Flag automatisch aufheben
+    autoScrollTimer = setTimeout(() => {
+      isAutoScrolling = false;
+      lastScrollY = window.scrollY;
+    }, 800);
   });
+});
+
+// Scrolling event
+window.addEventListener('scroll', () => {
+  if (isAutoScrolling) return;
+
+  const currentScrollY = window.scrollY;
+
+  if (currentScrollY > lastScrollY && currentScrollY > 50) {
+    navBar.classList.add('hidden');
+  } else {
+    navBar.classList.remove('hidden');
+  }
+
+  lastScrollY = currentScrollY;
+});
