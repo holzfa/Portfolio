@@ -5,7 +5,8 @@ const techStack = [
   { title: "Kotlin", subtitle: "Java aber Besser", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg", bg: "#371840" },
   { title: "Linux", subtitle: "Arch & Fedora", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fedora/fedora-original.svg", bg: "#1c2052" },
   { title: "Rider", subtitle: "DotNet Entwicklung", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rider/rider-original.svg", bg: "#8a6213" },
-  { title: "IntelliJ IDEA", subtitle: "Kotlin Entwicklung", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg", bg: "#6b1230" }
+  { title: "IntelliJ IDEA", subtitle: "Kotlin Entwicklung", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg", bg: "#6b1230" },
+  { title: "Android Studio", subtitle: "Android Anwendungen", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg", bg: "#1d1e42" }
 ];
 const techContainer = document.getElementById("tech-stack");
 techContainer.innerHTML = techStack.map(item => `
