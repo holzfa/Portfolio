@@ -2,7 +2,7 @@ const projectStack = [
   {
     title: "Aero",
     icon: "https://raw.githubusercontent.com/Aero-Language/Aero-Docs/refs/heads/main/aero_dark.svg",
-    badges: ["C#", "Compiler", "Backend"],
+    badges: ["C#", "Compiler", "Backend", "Alpha"],
     description: "Eine strikte und kompilierte Programmiersprache, die Performance mit intuitivem Syntax kombiniert.",
     url: "https://github.com/Aero-Language"
   },
