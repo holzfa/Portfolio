@@ -12,6 +12,13 @@ const projectStack = [
     badges: ["C#", "Parser", "Json"],
     description: "Ein JSON Parser, aber es ist ein Datei System.",
     url: "https://github.com/holzfa/JsonVS"
+  },
+  {
+    title: "Acli",
+    icon: "https://raw.githubusercontent.com/Aero-Language/Acli/refs/heads/master/acli_dark.svg",
+    badges: ["C#", "CLI", "Posix"],
+    description: "Der einfache Weg für eine CLI.",
+    url: "https://github.com/Aero-Language/Acli"
   }
   // {
   //   title: "",
