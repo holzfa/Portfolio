@@ -53,5 +53,5 @@ projectStackContainer.innerHTML = projectStack.map(item => `
 
 const projectFooterContainer = document.getElementById("project-footer");
 projectFooterContainer.innerHTML = projectStack.map(item => `
-  <a href="#projects" class="footer-link">${item.title}</a>
+  <a href="${item.url}" class="footer-link">${item.title}</a>
 `).join("");
