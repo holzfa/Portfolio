@@ -6,6 +6,13 @@ const projectStack = [
     description: "Eine strikte und kompilierte Programmiersprache, die Performance mit intuitivem Syntax kombiniert.",
     url: "https://github.com/Aero-Language"
   },
+  {
+    title: "JsonVS",
+    icon: "https://raw.githubusercontent.com/holzfa/JsonVS/refs/heads/master/Icon.svg",
+    badges: ["C#", "Parser", "Json"],
+    description: "Ein JSON Parser, aber es ist ein Datei System.",
+    url: "https://github.com/holzfa/JsonVS"
+  }
   // {
   //   title: "",
   //   icon: "",
