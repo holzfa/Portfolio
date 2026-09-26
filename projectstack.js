@@ -8,7 +8,7 @@ const projectStack = [
   },
   {
     title: "JsonVS",
-    icon: "https://raw.githubusercontent.com/holzfa/JsonVS/refs/heads/master/jsonvs.svg",
+    icon: "https://raw.githubusercontent.com/holzfa/JsonVS/refs/heads/master/jsonvs_dark.svg",
     badges: ["C#", "Parser", "Json"],
     description: "Ein JSON Parser, aber es ist ein Datei System.",
     url: "https://github.com/holzfa/JsonVS"
@@ -21,8 +21,8 @@ const projectStack = [
   //   url: ""
   // }
 ];
-const projectContainer = document.getElementById("project-stack");
-projectContainer.innerHTML = projectStack.map(item => `
+const projectStackContainer = document.getElementById("project-stack");
+projectStackContainer.innerHTML = projectStack.map(item => `
   <div class="project-card">
       <div class="project-card-header">
         <img src="${item.icon}" alt="${item.title}" class="project-title-icon" />
@@ -42,4 +42,9 @@ projectContainer.innerHTML = projectStack.map(item => `
         ` : ''}
       </div>
     </div>
+`).join("");
+
+const projectFooterContainer = document.getElementById("project-footer");
+projectFooterContainer.innerHTML = projectStack.map(item => `
+  <a href="#projects" class="footer-link">${item.title}</a>
 `).join("");
