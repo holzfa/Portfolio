@@ -8,7 +8,7 @@ const projectStack = [
   },
   {
     title: "JsonVS",
-    icon: "https://raw.githubusercontent.com/holzfa/JsonVS/refs/heads/master/Icon.svg",
+    icon: "https://raw.githubusercontent.com/holzfa/JsonVS/refs/heads/master/jsonvs.svg",
     badges: ["C#", "Parser", "Json"],
     description: "Ein JSON Parser, aber es ist ein Datei System.",
     url: "https://github.com/holzfa/JsonVS"
