@@ -277,7 +277,7 @@ div.content { padding: 0px 16px; }
   background-color: #121315;
   border: 1px solid #242628;
   border-radius: 16px;
-  padding: 24px;
+  padding: 20px;
   box-sizing: border-box;
   position: relative;
   transition: border-color 0.2s ease, background-color 0.2s ease;
@@ -315,7 +315,7 @@ div.content { padding: 0px 16px; }
 .badge {
     background-color: #202223;
 
-    padding: 8px 12px;
+    padding: 6px 8px;
     display: flex;
     justify-content: center;
     align-items: center;
