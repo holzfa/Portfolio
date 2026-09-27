@@ -172,7 +172,7 @@ div.content { padding: 0px 16px; }
     text-align: center;
 }
 .title {
-    font-size: 3.8rem;
+    font-size: 3.2rem;
     font-weight: 650;
 
     margin: 8px;
@@ -443,7 +443,7 @@ div.content { padding: 0px 16px; }
 
 /* Call to Action Section */
 .cta-title {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.1;
   color: #f4f4f5;
