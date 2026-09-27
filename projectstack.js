@@ -2,7 +2,7 @@ const projectStack = [
   {
     title: "Aero",
     icon: "https://raw.githubusercontent.com/Aero-Language/Aero-Docs/refs/heads/main/aero_dark.svg",
-    badges: ["C#", "Compiler", "Backend", "Alpha"],
+    badges: ["C#", "Compiler", "Backend"],
     description: "Eine strikte und kompilierte Programmiersprache, die Performance mit intuitivem Syntax kombiniert.",
     url: "https://github.com/Aero-Language/Luft"
   },
@@ -16,8 +16,8 @@ const projectStack = [
   {
     title: "Acli",
     icon: "https://raw.githubusercontent.com/Aero-Language/Acli/refs/heads/master/acli_dark.svg",
-    badges: ["C#", "CLI", "Posix"],
-    description: "Der einfache Weg für eine CLI.",
+    badges: ["C#", "Cli", "Posix"],
+    description: "Der einfache Weg für eine Cli.",
     url: "https://github.com/Aero-Language/Acli"
   }
   // {
