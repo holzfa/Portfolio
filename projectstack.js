@@ -28,6 +28,7 @@ const projectStack = [
   //   url: ""
   // }
 ];
+projectStack.forEach(item => ASSETS_TO_CACHE.add(item.icon));
 const projectStackContainer = document.getElementById("project-stack");
 projectStackContainer.innerHTML = projectStack.map(item => `
   <div class="project-card">
