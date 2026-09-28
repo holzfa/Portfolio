@@ -1,5 +1,5 @@
 const CACHE_NAME = 'portfolio-v2';
-const ASSETS_TO_CACHE = [
+ASSETS_TO_CACHE = [
   './',
   './index.html',
   './site.webmanifest',
